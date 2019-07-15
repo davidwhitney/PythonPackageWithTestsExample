@@ -1,2 +1,2 @@
 def invoke():
-    print("hi")
+    return True
