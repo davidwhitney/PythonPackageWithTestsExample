@@ -1,0 +1,11 @@
+before_script:
+  - apt-get update -qy
+  - apt-get install -y python-dev python-pip
+  - python -m pip install --user --upgrade setuptools wheel
+  - python setup.py sdist bdist_wheel
+  - pip install twine
+
+build:
+  script:
+    - chmod +x ./build.sh
+    - ./build.sh
