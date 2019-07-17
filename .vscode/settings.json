@@ -13,6 +13,7 @@
         "-s",
         "./pythonpackage",
         "-p",
-        "*_test.py"
-    ]
+        "test*.py"
+    ],
+    "python.pythonPath": "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
 }
